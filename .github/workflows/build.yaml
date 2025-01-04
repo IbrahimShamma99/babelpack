@@ -1,0 +1,22 @@
+name: build-check
+
+on: push
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 9
+          run_install: |
+            - recursive: true
+              --frozen-lockfile
+
+      - name: build
+        run: |
+          pnpm build
