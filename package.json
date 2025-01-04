@@ -14,19 +14,14 @@
     "@babel/parser": "^7.26.3",
     "@swc/core": "^1.10.4",
     "@types/babel-types": "^7.0.16",
-    "babel-traverse": "^6.26.0",
-    "babel-types": "^6.26.0",
-    "babylon": "^6.18.0",
     "typescript": "^5.7.2"
   },
   "devDependencies": {
     "@babel/core": "^7.26.0",
     "@babel/traverse": "^7.26.4",
     "@babel/types": "^7.26.3",
-    "@types/babel-traverse": "^6.25.10",
     "@types/babel__core": "^7.20.5",
     "@types/babel__traverse": "^7.20.6",
-    "@types/babylon": "^6.16.9",
     "@types/node": "^22.10.5"
   }
 }
