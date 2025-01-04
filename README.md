@@ -1,5 +1,7 @@
 # Bundler Experiment
 
+Babel based bundler experiment.
+
 ## Introduction
 
 This is a fun project into how to create a bundler using Typescript, influenced by webpack codebase.
