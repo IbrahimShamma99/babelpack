@@ -33,7 +33,7 @@ async function createBundleAsset(filename: string): Promise<Asset> {
   const id = COUNT++;
 
   const babelResult = await transformFromAstAsync(ast, undefined, {
-    presets: ["env"],
+    presets: ["@babel/preset-env"],
   });
 
   if (!babelResult?.code) {
